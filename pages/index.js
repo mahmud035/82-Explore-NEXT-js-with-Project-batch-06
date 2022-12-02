@@ -8,11 +8,11 @@ export default function Home() {
       <Head>
         <title>Home Page</title>
       </Head>
-
-      <h1>This is Home Page</h1>
+      {/* <h1>This is Home Page</h1>
       <Link href="/blogs/blog1">
         <button>Blog</button>
-      </Link>
+      </Link> */}
+      <br /> <br />
     </div>
   );
 }

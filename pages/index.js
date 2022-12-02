@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Banner from '../Components/Banner/Banner';
+import Footer from '../Components/Footer/Footer';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         <button>Blog</button>
       </Link> */}
       <br /> <br />
+      <Banner></Banner>
+      <Footer></Footer>
     </div>
   );
 }
